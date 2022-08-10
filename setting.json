@@ -1,35 +1,35 @@
 {
-    "title": "無名の主页",
-    "description": "一个默默无闻的主页",
-    "keywords": "無名,个人主页",
-    "author": "無名",
+    "title": "故人的博客",
+    "description": "千载流年一如梦，月落山河一世倾",
+    "keywords": "故人,个人博客",
+    "author": "故人",
     "logo_img": "./img/icon/logo.png",
-    "logo_text_1": "imsyy",
-    "logo_text_2": "top",
-    "github": "imsyy",
-    "qq": "1539250352",
-    "email": "one@imsyy.top",
-    "bilibili": "98544142",
+    "logo_text_1": "gu",
+    "logo_text_2": "ren",
+    "github": "https://gurbk.github.io/",
+    "qq": "256018882",
+    "email": "guren888@88.com",
+    "bilibili": "https://123apps.com/cn/",
     "telegram": "bottom_user",
     "link_1": [
-        "https://blog.imsyy.top/",
+        "https://site.sciping.com/",
         "fa-solid fa-blog",
-        "博客"
+        "学术导航"
     ],
     "link_2": [
-        "https://drive.imsyy.top/",
+        "https://yiso.fun/",
         "fa-solid fa-cloud",
-        "网盘"
+        "网盘搜索"
     ],
     "link_3": [
-        "https://music.imsyy.top/",
+        "https://decohack.notion.site/decohack/21ed6d8428d04b928ccd7fbf2ea36dd2?v=8456b58b9e184cbca2979d033d5f83a6",
         "fa-solid fa-music",
-        "音乐"
+        "DecoHack周刊"
     ],
     "link_4": [
-        "https://nav.imsyy.top/",
+        "https://wantquotes.net/?utm_source=appinn.com",
         "fa-solid fa-compass",
-        "起始页"
+        "据意查句"
     ],
     "link_5": [
         "https://web.imsyy.top/",
@@ -37,10 +37,10 @@
         "网址集"
     ],
     "link_6": [
-        "https://lab.imsyy.top/",
+        "https://pan.quark.cn/s/bb0c7904fb82#/list/share",
         "fa-solid fa-flask",
-        "实验室"
+        "考研资料"
     ],
-    "Copyright_text": "無名",
-    "beian": "豫ICP备2022018134号-1"
+    "Copyright_text": "故人",
+    "beian": "桂ICP备2022018139号-1"
 }
