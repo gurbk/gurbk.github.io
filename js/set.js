@@ -1,6 +1,6 @@
 /*
-作者: imsyy
-主页：https://www.imsyy.top/
+作者: guren
+主页：https://gurbk.github.io/
 GitHub：https://github.com/imsyy/home
 版权所有，请勿删除
 */
@@ -27,10 +27,10 @@ $(function () {
             $('#logo-text-small').html(data.logo_text_1 + "." + data.logo_text_2);
             /* 社交链接 */
             $('#github').attr('href', "https://github.com/" + data.github);
-            $('#qq').attr('href', "https://wpa.qq.com/msgrd?v=3&uin=" + data.qq + "&site=qq&menu=yes");
-            $('#email').attr('href', "mailto:" + data.email);
-            $('#bilibili').attr('href', "https://space.bilibili.com/" + data.bilibili);
-            $('#telegram').attr('href', "https://t.me/" + data.telegram);
+            $('#qq').attr('href', "https://qm.qq.com/cgi-bin/qm/qr?k=Qcx_GVYBPkJxm77WhV4435Dt-oMFCp1e&noverify=0" );
+            $('#email').attr('href', "mailto:guren888@88.com");
+            $('#bilibili').attr('href', "https://123apps.com/cn/" );
+            $('#telegram').attr('href', "https://h.bkzx.cn/" );
             /* 快捷链接 */
             $('#link-url-1').attr('href', data.link_1[0]);
             $('#link-icon-1').attr('class', data.link_1[1]);
