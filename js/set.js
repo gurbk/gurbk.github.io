@@ -21,12 +21,12 @@ $(function () {
             /* 基础信息 */
             $("#logo-img").attr("src", data.logo_img);
             $('#logo-text-1').html(data.logo_text_1);
-            $('#logo-text-2').html("." + data.logo_text_2);
+            $('#logo-text-2').html("" + data.logo_text_2);
             $('#logo-title-other').html(data.logo_text_1);
             $('#logo-title-other-small').html("." + data.logo_text_2);
-            $('#logo-text-small').html(data.logo_text_1 + "." + data.logo_text_2);
+            $('#logo-text-small').html(data.logo_text_1 + "" + data.logo_text_2);
             /* 社交链接 */
-            $('#github').attr('href', "https://github.com/" + data.github);
+            $('#github').attr('href', "https://lin64850.github.io/" );
             $('#qq').attr('href', "https://qm.qq.com/cgi-bin/qm/qr?k=Qcx_GVYBPkJxm77WhV4435Dt-oMFCp1e&noverify=0" );
             $('#email').attr('href', "mailto:guren888@88.com");
             $('#bilibili').attr('href', "https://123apps.com/cn/" );
