@@ -1,6 +1,6 @@
 /*
 作者: imsyy
-主页：https://www.imsyy.top/
+主页：https://gurbk.github.io
 GitHub：https://github.com/imsyy/home
 版权所有，请勿删除
 */
@@ -40,7 +40,11 @@ body.addEventListener('mousemove', (e) => {
     });
 });
 
-
+//移动端去除鼠标样式
+switch (true) {
+    case navigator.userAgent.indexOf('Mobile') > 0:
+        $('#g-pointer-2').css("display", "none");
+}
 
 //加载完成后执行
 window.addEventListener('load', function () {
@@ -57,7 +61,7 @@ window.addEventListener('load', function () {
             timeout: 2500,
             icon: false,
             title: hello,
-            message: '欢迎来到我的主页'
+            message: '欢迎来到故人的博客'
         });
     }, 800);
 
@@ -74,11 +78,6 @@ window.addEventListener('load', function () {
     //     "url(" + "./font/MiSans-Regular.woff2" + ")"
     // );
     // document.fonts.add(font);
-
-    //移动端去除鼠标样式
-    if (Boolean(window.navigator.userAgent.match(/AppWebKit.*Mobile.*/))) {
-        $('#g-pointer-2').css("display", "none");
-    }
 
 }, false)
 
@@ -255,7 +254,7 @@ $("#email").mouseover(function () {
     $("#link-text").html("通过这里联系我");
 });
 $("#bilibili").mouseover(function () {
-    $("#link-text").html("来 B 站看看 ~");
+    $("#link-text").html("来工具箱看看 ~");
 }).mouseout(function () {
     $("#link-text").html("通过这里联系我");
 });
@@ -301,7 +300,7 @@ $('#switchmore').on('click', function () {
     } else {
         $('#container').attr('class', 'container');
         $("#change").html("Hello&nbsp;World&nbsp;!");
-        $("#change1").html("一个建立于 21 世纪的小站，存活于互联网的边缘");
+        $("#change1").html("千载流年一如梦，月落山河一世倾|一个建立于 21 世纪的小站，存活于互联网的边缘");
     }
 });
 
@@ -350,7 +349,7 @@ window.addEventListener('load', function () {
             //移动端隐藏更多页面
             $('#container').attr('class', 'container');
             $("#change").html("Hello&nbsp;World&nbsp;!");
-            $("#change1").html("一个建立于 21 世纪的小站，存活于互联网的边缘");
+            $("#change1").html("千载流年一如梦，月落山河一世倾|一个建立于 21 世纪的小站，存活于互联网的边缘");
 
             //移动端隐藏弹窗页面
             $('#box').css("display", "none");
@@ -389,7 +388,7 @@ document.oncontextmenu = function () {
 }
 
 //控制台输出
-//console.clear();
+console.clear();
 let styleTitle1 = `
 font-size: 20px;
 font-weight: 600;
@@ -402,7 +401,7 @@ color: rgb(244,167,89);
 let styleContent = `
 color: rgb(30,152,255);
 `
-let title1 = '無名の主页'
+let title1 = '故人的博客'
 let title2 = `
  _____ __  __  _______     ____     __
 |_   _|  \\/  |/ ____\\ \\   / /\\ \\   / /
@@ -415,7 +414,7 @@ let content = `
 版 本 号：3.4
 更新日期：2022-07-24
 
-主页:  https://www.imsyy.top
+主页:  https://gurbk.github.io
 Github:  https://github.com/imsyy/home
 `
 console.log(`%c${title1} %c${title2}
