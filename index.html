@@ -114,6 +114,23 @@
                                 <a href="https://qm.qq.com/cgi-bin/qm/qr?k=Qcx_GVYBPkJxm77WhV4435Dt-oMFCp1e&noverify=0" class="link"
                                     id="qq" target="_blank">
                                     <i class="fa-brands fa-qq"></i>
+                                 </a>
+                                    <a class="navigation__item">
+                                        <a onclick="weixin()" title="微信" target="_blank">
+                                            <i class="fab fa-weixin"></i>
+                                            <script>
+                                                function weixin() {
+                                                    Swal.fire({
+                                                        title: "请扫码",
+                                                        text: "请使用微信扫一扫",
+                                                        confirmButtonText: "好的",
+                                                        imageUrl: "./img/weixin.png",
+                                                        imageWidth: 150,
+                                                        imageHeight: 150
+                                                    })
+                                                }
+                                            </script>
+                                        </a>
                                 </a>
                                 <a href="mailto:L52013148@111.com" class="link" id="email">
                                     <i class="fa-solid fa-envelope"></i>
