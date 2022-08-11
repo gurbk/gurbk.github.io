@@ -1,7 +1,7 @@
 /*
-作者: imsyy
+作者: 故人
 主页：https://gurbk.github.io
-GitHub：https://github.com/imsyy/home
+GitHub：https://github.com/gurbk
 版权所有，请勿删除
 */
 
@@ -239,7 +239,7 @@ $("#social").mouseover(function () {
 });
 
 $("#github").mouseover(function () {
-    $("#link-text").html("去 Github 看看");
+    $("#link-text").html("去 故人的主页 看看");
 }).mouseout(function () {
     $("#link-text").html("通过这里联系我");
 });
@@ -415,7 +415,7 @@ let content = `
 更新日期：2022-07-24
 
 主页:  https://gurbk.github.io
-Github:  https://github.com/imsyy/home
+Github:  https://github.com/gurbk
 `
 console.log(`%c${title1} %c${title2}
 %c${content}`, styleTitle1, styleTitle2, styleContent)
