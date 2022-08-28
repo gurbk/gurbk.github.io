@@ -1,9 +1,3 @@
-/*
-作者: 故人
-主页：https://gurbk.github.io
-GitHub：https://github.com/gurbk
-版权所有，请勿删除
-*/
 
 //弹窗样式
 iziToast.settings({
@@ -61,7 +55,7 @@ window.addEventListener('load', function () {
             timeout: 2500,
             icon: false,
             title: hello,
-            message: '欢迎来到故人的博客'
+            message: '欢迎来到故人的主页'
         });
     }, 800);
 
@@ -239,7 +233,7 @@ $("#social").mouseover(function () {
 });
 
 $("#github").mouseover(function () {
-    $("#link-text").html("去 故人的主页 看看");
+    $("#link-text").html("去 GitHub 看看");
 }).mouseout(function () {
     $("#link-text").html("通过这里联系我");
 });
@@ -259,7 +253,7 @@ $("#bilibili").mouseover(function () {
     $("#link-text").html("通过这里联系我");
 });
 $("#telegram").mouseover(function () {
-    $("#link-text").html("你懂的 ~");
+    $("#link-text").html("中国百科全书数据库 ~");
 }).mouseout(function () {
     $("#link-text").html("通过这里联系我");
 });
@@ -401,7 +395,7 @@ color: rgb(244,167,89);
 let styleContent = `
 color: rgb(30,152,255);
 `
-let title1 = '故人的博客'
+let title1 = '故人的主页'
 let title2 = `
  _____ __  __  _______     ____     __
 |_   _|  \\/  |/ ____\\ \\   / /\\ \\   / /
@@ -415,7 +409,7 @@ let content = `
 更新日期：2022-07-24
 
 主页:  https://gurbk.github.io
-Github:  https://github.com/gurbk
+Github:  https://github.com/88lin
 `
 console.log(`%c${title1} %c${title2}
 %c${content}`, styleTitle1, styleTitle2, styleContent)
