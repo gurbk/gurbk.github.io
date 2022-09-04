@@ -1,7 +1,7 @@
 /*
 作者: guren
 主页：https://gurbk.github.io/
-GitHub：https://github.com/imsyy/home
+GitHub：https://github.com/gurbk
 版权所有，请勿删除
 */
 
