@@ -6,7 +6,7 @@ https://api.wuenci.com/meting/api/
 */
 let server = "tencent"; //netease: 网易云音乐; tencent: QQ音乐; kugou: 酷狗音乐; xiami: 虾米; kuwo: 酷我
 let type = "playlist"; //song: 单曲; playlist: 歌单; album: 唱片
-let id = "CGtBPNmz1au4"; //封面 ID / 单曲 ID / 歌单 ID
+let id = "8612168792"; //封面 ID / 单曲 ID / 歌单 ID
 
 $.ajax({
     url: "https://api.wuenci.com/meting/api/?server=" + server + "&type=" + type + "&id=" + id,
