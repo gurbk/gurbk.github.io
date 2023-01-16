@@ -130,7 +130,7 @@ $('#hitokoto').click(function () {
 //请前往 https://dev.qweather.com/ 申请 key
 const add_id = "wrknltonr0foslhs"; // app_id
 const app_secret = "Nlh1c0F6d0ZDU2pDR0J3YVBVbkhudz09"; // app_secret
-const key = "433f0c48615a48dfaf2f2b2444297e79" // key
+const key = "ec7fd505d0664f7fba1a32bdc47841eb" // key
 function getWeather() {
     fetch("https://www.mxnzp.com/api/ip/self?app_id=" + add_id + "&app_secret=" + app_secret)
         .then(response => response.json())
