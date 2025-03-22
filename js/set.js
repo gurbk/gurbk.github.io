@@ -34,9 +34,9 @@ function getBgImg() {
 let bg_img_preinstall = {
     "type": "5", // 1:默认背景 2:每日一图 3:随机风景 4:随机动漫 5:mc酱动漫
     "2": "https://cdn.seovx.com/?mom=302", // 随机美图
-    "3": "https://api.aixiaowai.cn/gqapi/gqapi.php", // 随机风景
-    "4": "https://api.aixiaowai.cn/api/api.php",// 随机动漫
-    "5": "https://api.aixiaowai.cn/mcapi/mcapi.php" // mc酱动漫
+    "3": "https://api.r10086.com/PPT/PPT.php?PPT=%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB&%E5%8F%82%E6%95%B0=%E9%9B%AA%E8%8A%B1%E7%89%B9%E6%95%88", // 随机风景
+    "4": "https://www.dmoe.cc/random.php",// 随机动漫
+    "5": "https://t.alcy.cc/ycy" // mc酱动漫
 };
 
 // 更改背景图片
