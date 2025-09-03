@@ -7,8 +7,8 @@ $.ajax({
     type: "GET",
     dataType: "JSON",
     headers: {
-        "Referer": "https://metingapi.nanorocky.top/",
-        "Origin": "https://metingapi.nanorocky.top"
+        "Referer": "https://y.qq.com/",
+        "Origin": "https://y.qq.com"
     },
     success: function (data) {
         const ap = new APlayer({
