@@ -1,15 +1,11 @@
-let server = "tencent"; //netease: 网易云音乐; tencent: QQ音乐; kugou: 酷狗音乐; xiami: 虾米; kuwo: 酷我
+let server = "netease"; //netease: 网易云音乐; tencent: QQ音乐; kugou: 酷狗音乐; xiami: 虾米; kuwo: 酷我
 let type = "playlist"; //song: 单曲; playlist: 歌单; album: 唱片
-let id = "8612168792"; //封面 ID / 单曲 ID / 歌单 ID
+let id = "7310569209"; //封面 ID / 单曲 ID / 歌单 ID
 
 $.ajax({
     url: "https://metingapi.nanorocky.top/?server=" + server + "&type=" + type + "&id=" + id,
     type: "GET",
     dataType: "JSON",
-    headers: {
-        "Referer": "https://y.qq.com/",
-        "Origin": "https://y.qq.com"
-    },
     success: function (data) {
         const ap = new APlayer({
             container: document.getElementById('aplayer'),
