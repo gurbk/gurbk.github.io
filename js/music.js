@@ -9,7 +9,7 @@ let type = "playlist"; //song: 单曲; playlist: 歌单; album: 唱片
 let id = "8612168792"; //封面 ID / 单曲 ID / 歌单 ID
 
 $.ajax({
-    url: "https://api.wuenci.com/meting/api/?server=" + server + "&type=" + type + "&id=" + id,
+    url: "https://metingapi.nanorocky.top/?server=" + server + "&type=" + type + "&id=" + id,
     type: "GET",
     dataType: "JSON",
     success: function (data) {
@@ -44,13 +44,6 @@ $.ajax({
                 $('.power').css("cssText", "display:none");
                 $('#lrc').css("cssText", "display:block !important");
             };
-            // Notification.requestPermission().then(res => {
-            //     console.log(res)
-            // });
-            // new Notification('音乐通知', {
-            //     body: '正在播放：' + music,
-            //     tag: 1
-            // });
         });
 
         ap.on('pause', function () {
